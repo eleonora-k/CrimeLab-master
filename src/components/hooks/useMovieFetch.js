@@ -18,7 +18,7 @@ export const useMovieFetch = movieId => {
             const directors = creditsResult.crew.filter(member => member.job === 'Director');
 
             setState({
-                ... result,
+                ...result,
                 actors: creditsResult.cast,
                 directors
             })

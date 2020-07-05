@@ -20,7 +20,6 @@ const Home = () => {
     const [
         {
             state: {
-                time,
                 movies,
                 currentPage,
                 totalPages,

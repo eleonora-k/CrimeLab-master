@@ -18,8 +18,8 @@ export const useHomeFetch = () => {
                 ...prev,
                 movies: isLoadMore !== -1 ? [
                     ...prev.movies,
-                    ... result.results
-                ] : [... result.results],
+                    ...result.results
+                ] : [...result.results],
                 heroImage: prev.heroImage || result.results[0],
                 currentPage: result.page,
                 totalPages: result.total_pages

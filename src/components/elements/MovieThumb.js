@@ -6,10 +6,10 @@ const MovieThumb = ({ image, movieId, clickable, movieName }) => (
   <SMovieThumb>
     {clickable ? (
       <Link to={`/${movieId}`}>
-        <img className="clickable" src={image} alt="movie image" />
+        <img className="clickable" src={image} alt="movie" />
       </Link>
     ) : (
-      <img src={image} alt="movie image" />
+      <img src={image} alt="movie" />
     )}
      <p>{movieName} </p>
   </SMovieThumb>

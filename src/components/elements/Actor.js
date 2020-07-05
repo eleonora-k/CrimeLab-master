@@ -10,7 +10,7 @@ const Actor = ({actor}) => (
                     actor.profile_path
                 }` : NoImage
             }
-            alt="photo of the actor"/>
+            alt="actor"/>
         <span className="actor-name">
             {
             actor.name
